@@ -1,4 +1,4 @@
-# SIMTELE-WEB
+# TELEFERICO-WEB
 
 **Panel interactivo de prevención y monitoreo de Mi Teleférico — simulación educativa.**
 
@@ -43,14 +43,6 @@ proyecto-simtele-web/
 
 Los registros de **mantenimiento y sensores** se guardan en `localStorage` y se recuperan al recargar la página, siempre que el navegador permita el almacenamiento local. Los cálculos de detención y viento no se guardan.
 
-## Cómo ejecutar el proyecto
-
-1. Descarga o clona el repositorio.
-2. Conserva la estructura de carpetas indicada arriba.
-3. Abre `index.html` en un navegador moderno (Chrome, Firefox o Edge).
-4. Usa el menú para ir a cada módulo; completa el formulario y pulsa el botón correspondiente. **No se necesita servidor ni conexión a internet**.
-5. En mantenimiento y sensores, utiliza **Eliminar** para quitar registros de la tabla y del almacenamiento local.
-
 ## Pruebas de aceptación
 
 | Módulo | Datos de prueba | Resultado esperado |
@@ -61,19 +53,8 @@ Los registros de **mantenimiento y sensores** se guardan en `localStorage` y se 
 | Sensores | `SEN-001`, Temperatura, `25` | Registro aceptado |
 | Sensores | `SEN-1` | Error de código y ningún registro nuevo |
 | Sensores | Código vacío | Error de código y ningún registro nuevo |
-
-## Publicar en GitHub Pages
-
-1. Crea un repositorio de GitHub y sube `index.html`, `css/styles.css`, `js/app.js` y `README.md` conservando las rutas.
-2. En el repositorio abre **Settings → Pages**.
-3. En **Build and deployment**, selecciona **Deploy from a branch**, la rama principal (`main`) y la carpeta `/ (root)`; guarda los cambios.
-4. Cuando GitHub termine de publicar, abre la URL que aparece en Pages para comprobar la web.
-5. Entrega **dos enlaces**: la URL pública de GitHub Pages y la URL del repositorio.
-
 ## Tecnologías utilizadas
 
 - **HTML5 semántico:** `header`, `nav`, `main`, `section`, `footer`, `form`, `label`, `small` y `table`.
 - **CSS3:** Flexbox, Grid, estados de alerta y `@media` para dispositivos móviles.
 - **JavaScript:** `parseFloat()`, `if/else`, arreglos, objetos, `forEach()`, `push()`, `splice()`, expresiones regulares con `.test()`, `addEventListener`, manipulación segura del DOM y `localStorage`.
-
-**Uso exclusivamente académico.** Esta aplicación no controla instalaciones ni recibe datos reales de Mi Teleférico.
