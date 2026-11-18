@@ -1,6 +1,6 @@
 # TELEFERICO-WEB
 
-**Panel interactivo de prevención y monitoreo de Mi Teleférico — simulación educativa.**
+**Panel interactivo de prevención y monitoreo de Mi Teleférico **
 
 Proyecto de **Programación Web I** desarrollado con HTML5, CSS3 y JavaScript puro. Consiste en **una sola página** con cuatro módulos interactivos, navegación interna, tablas y validaciones.
 
